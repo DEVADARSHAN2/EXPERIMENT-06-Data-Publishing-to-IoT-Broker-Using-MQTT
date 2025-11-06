@@ -73,18 +73,18 @@ Broker Message: The message "Hello, MQTT!" will be published to the topic test/t
  ```
 import paho.mqtt.client as mqtt
 
-broker = "441a2e6f220d459e99e7695a674c8f4f.s1.eu.hivemq.cloud"
+broker = "bb64b5b0150247a1a70487e2c2426296.s1.eu.hivemq.cloud"
 port = 8883
-topic = "iot1/demo/sensor"
-username = "hivemq.webclient.1762399508525"
-password = "0j:DEhG.?,Vg17F6Ztfp"
+topic = "demo/sensor"
+username = "hivemq.webclient.1762399099934"
+password = ",58pbqs<1$XN.Jh2aHYS"
 
 client = mqtt.Client()
 client.username_pw_set(username, password)
 client.tls_set() 
 
 client.connect(broker, port)
-client.publish(topic, "SEC")
+client.publish(topic, "DEVADARSHAN A S")
 client.loop(2)
 client.disconnect()
 ```
