@@ -90,6 +90,8 @@ client.disconnect()
 ```
 
  ## Simulation Screenshots:
+ <img width="1251" height="581" alt="Screenshot 2025-11-06 092410" src="https://github.com/user-attachments/assets/7a9a762f-a9cd-4b32-93d4-1dd52226942b" />
+
 <img width="1920" height="1080" alt="Screenshot 2025-11-06 091537" src="https://github.com/user-attachments/assets/c8748984-6142-4eb3-b18b-5a4117c2fdde" />
 
  ## Results:
